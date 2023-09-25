@@ -1,0 +1,118 @@
+body{
+    background-color: black;
+}
+
+.main-container{
+    height: 500px;
+    width: 500px;
+    background-color: rgb(29, 30, 31);
+    margin: auto;
+    margin-top: 5rem;
+   border-radius: 10%;
+    
+}
+.tittle{
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+   
+  
+   
+   
+}
+input{
+    margin-left: 2.9rem;
+   
+    /* border-radius: 4% 0 4% 0 solid white; */
+    width: 400px;
+    height: 30px;
+
+    
+    display: inline-block;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+    border-radius: 500px;
+    transition-property: background-color,border-color,color,box-shadow,filter;
+    transition-duration: .3s;
+    border: 1px solid transparent;
+    letter-spacing: 2px;
+    min-width: 160px;
+    text-transform: uppercase;
+    white-space: normal;
+    font-weight: 700;
+    text-align: center;
+    padding: 16px 14px 18px;
+    color: #616467;
+    box-shadow: inset 0 0 0 2px #616467;
+    background-color: transparent;
+    height: 48px;
+   
+
+}
+
+input:hover{
+    color: #fff;
+    background-color: #616467;
+}
+.add-btn{
+   
+    margin-top: 0.5rem;
+
+    width: 150px;
+    height: 30px;
+    margin-left: 10.5rem;
+    outline: 0;
+    
+    border:0;
+    cursor: pointer;
+    text-decoration: none;
+    
+    color: #000;
+    background: #fff;
+    
+    border-radius: 40px;
+    /* padding: 20px; */
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: rgb(255, 198, 0) -2px -2px 0px 2px, rgb(246, 84, 174) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transition: all 0.2s;
+   
+    
+}
+
+.add-btn:hover{
+    box-shadow: rgb(246, 84, 174) -2px -2px 0px 2px, rgb(255, 198, 0) 0px 0px 0px 4px, rgba(0, 0, 0, 0.05) 0px 0px 2px 7px;
+    transform: scale(1.01);
+}
+
+.ul-list{
+    font-size: 2rem;
+    color: white;
+   
+}
+.ul-list li button{
+    margin-left: 1rem;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+    background: #FFD814;
+    border: 1px solid #FCD200;
+    font-size: 11px;
+    height: 22px;
+    padding: 0 15px;
+    text-align: center;
+    font-weight: 500;
+    color: #0F1111;
+    
+    
+}
+
+.ul-list li button::hover{
+    background: #F7CA00;
+    border-color: #F2C200;
+    box-shadow: 0 2px 5px 0 rgb(213 217 217 / 50%);
+}
